@@ -26,8 +26,13 @@ for f in files:
 # ###Filter
 #
 #     - NEAREST
+
 #     - BOX
+
 #     - BILINEAR
+
 #     - HAMMING
+
 #     - BICUBIC
+
 #     - LANCZOS
