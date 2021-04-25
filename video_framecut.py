@@ -11,7 +11,6 @@
 # 예외처리 안해서 오류나도 사진 파일은 생성됨.
 
 
-
 import cv2
 import os
 import os.path
@@ -25,7 +24,7 @@ count = 0
 while(vidcap.isOpened()):
     ret, image = vidcap.read()
     # ex 이미지 사이즈 540x960으로 변경
-    image = cv2.resize(image, (960, 540))
+    image = cv2.resize(image, (900, 500))
 
 
     # 30프레임당 하나씩 이미지 추출
